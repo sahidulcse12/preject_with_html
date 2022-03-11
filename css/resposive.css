@@ -1,0 +1,124 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .menu-area ul {
+            text-align: right;
+            margin-top: 0px;
+        }
+
+        .btn {      
+            font-size: 19px;
+        }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .menu-area ul {
+        text-align: right;
+        margin-top: 0px;
+    }
+
+    .btn {      
+        font-size: 19px;
+    }
+    .logo-area {
+        width: 100%;
+        text-align: center;
+    }
+    .menu-area {
+        width: 100%;
+    }
+    .menu-area ul {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .menu-area ul li {
+        display: block;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .contact-form h4, .contact-address h4 {
+        text-align: center;
+    }
+    .contact-address {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .title h4 {
+        margin:0;
+    }
+
+    .single-service {
+        background-color: teal;
+        text-align: justify;
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+    }
+
+    .single-service h4 {
+        font-size: 20px;
+    }
+
+    .about-left {
+        width: 100%;
+        text-align: justify;
+    }
+    .about-left h4 {
+        text-align: center;
+    }
+
+    .about-left .btn{
+        text-align: center;
+    }
+    .btn {
+        display: block;
+        text-align:center;
+    }
+    .about-right {
+        width: 100%;
+        text-align: center;
+    }
+    .about-right h4 {
+        margin-top: 25px;
+    }
+    .about-right ul {
+        text-align: center;
+    }
+
+    .service-page .single-service {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact-form input[type="submit"] {
+        width: 100%;
+    }
+    .contact-form {
+        padding-left: 0px;
+    }
+    .single-gallery {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-area ul {
+        text-align: right;
+        margin-top: 23px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
